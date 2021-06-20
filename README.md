@@ -175,7 +175,7 @@ Add using statement at the top of your class file
         }
         else
         {
-            Console.WriteLine($"{response.Events[0].Kv.Key.ToStringUtf8()}:{response.Events .Kv.Value.ToStringUtf8()}");
+            Console.WriteLine($"{response.Events[0].Kv.Key.ToStringUtf8()}:{response.Events[0].Kv.Value.ToStringUtf8()}");
         }
     }
 
